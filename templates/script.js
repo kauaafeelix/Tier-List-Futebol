@@ -97,12 +97,10 @@ function handleDrop(e) {
             this.appendChild(draggedElement);
         }
                 else if (this.id === 'zonaImagens') {
-            // Restaura estilo original
             draggedElement.style.width = '150px';
             draggedElement.style.height = '150px';
             draggedElement.style.margin = '';
             
-            // Adiciona de volta à linha apropriada na zona de imagens
             const linha1 = document.querySelector('#linha1');
             if (linha1.children.length < 8) {
                 linha1.appendChild(draggedElement);
@@ -123,19 +121,16 @@ function handleDrop(e) {
     return false;
 }
 
-// Função para resetar todas as imagens para a zona original
 function resetTierList() {
     const images = document.querySelectorAll('img[draggable="true"]');
     const linha1 = document.querySelector('#linha1');
     const linha2 = document.querySelector('#linha2');
     const linha3 = document.querySelector('#linha3');
     
-    // Limpa todas as linhas
     linha1.innerHTML = '';
     linha2.innerHTML = '';
     linha3.innerHTML = '';
     
-    // Restaura estilo original e redistribui as imagens
     images.forEach((img, index) => {
         img.style.width = '150px';
         img.style.height = '150px';
@@ -151,7 +146,6 @@ function resetTierList() {
     });
 }
 
-// Adiciona CSS dinâmico para melhorar a experiência visual
 const style = document.createElement('style');
 style.textContent = `
     .drag-over {
