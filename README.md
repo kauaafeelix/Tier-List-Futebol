@@ -216,7 +216,7 @@ element.classList.add('drag-over');
 
 ## 👨‍💻 Autor
 
-Desenvolvido como atividade prática para a disciplina de **Programação Web**.
+Desenvolvido por [@Kauã Felix](https://github.com/kauaafeelix) como atividade prática para a disciplina de **Programação Front-End**.
 
 ---
 
