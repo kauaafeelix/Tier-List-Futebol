@@ -1,4 +1,4 @@
-# ⚽ Tier List - Atacantes do Futebol Mundial
+# ⚽ Tier List - Jogadores do Futebol Mundial
 
 <div align="center">
 
@@ -7,7 +7,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-*Uma aplicação interativa para rankear os melhores atacantes do futebol mundial utilizando drag and drop!*
+*Uma aplicação interativa para rankear os melhores jogadores do futebol mundial utilizando drag and drop!*
 
 </div>
 
@@ -28,7 +28,7 @@
 
 ## 📖 Sobre o Projeto
 
-Este projeto consiste em uma **Tier List interativa** desenvolvida para a disciplina de Programação Web. A aplicação permite que os usuários classifiquem atacantes do futebol mundial em diferentes níveis (S, A, B, C, D) utilizando a funcionalidade de **arrastar e soltar (drag and drop)**.
+Este projeto consiste em uma **Tier List interativa** desenvolvida para a disciplina de Programação Web. A aplicação permite que os usuários classifiquem jogadores do futebol mundial em diferentes níveis (S, A, B, C, D) utilizando a funcionalidade de **arrastar e soltar (drag and drop)**.
 
 O conceito de "Tier List" é amplamente utilizado na cultura da internet para classificar itens, personagens ou, neste caso, jogadores de futebol, em categorias hierárquicas, onde **S** representa o nível mais alto (os melhores) e **D** o mais baixo.
 
@@ -41,7 +41,7 @@ O conceito de "Tier List" é amplamente utilizado na cultura da internet para cl
 - ↩️ **Retorno à Galeria**: Arraste jogadores de volta para a galeria principal
 - 🎨 **Feedback Visual**: Destaque visual ao arrastar sobre as áreas de drop
 - 📱 **Design Responsivo**: Interface adaptada com TailwindCSS
-- 🖼️ **Galeria de Jogadores**: 25 atacantes de elite do futebol mundial
+- 🖼️ **Galeria de Jogadores**: 20 jogadores icônicos do futebol mundial
 
 ---
 
@@ -69,31 +69,26 @@ Tier-List-Futebol/
     ├── script.js             # Lógica JavaScript (drag and drop)
     │
     └── images/               # Imagens dos jogadores
-        ├── dembele.png
-        ├── doku.png
-        ├── estevao.png
-        ├── foden.png
-        ├── griezzmann.png
-        ├── gyokeres.png
-        ├── haaland.png
-        ├── julianalvarez.png
-        ├── kane.png
-        ├── kvaratskelia.png
-        ├── lautaromartinez.png
-        ├── martinelli.png
-        ├── mbappe.png
-        ├── olise.png
-        ├── osihen.png
-        ├── palmer.png
-        ├── pedro.png
-        ├── rafaelleao.png
-        ├── raphinha.png
-        ├── rashford.png
-        ├── rodrygo.png
-        ├── saka.png
-        ├── salah.png
-        ├── vinijr.png
-        └── yamal.png
+        ├── alisson.png
+        ├── beckham.png
+        ├── bellingham.png
+        ├── cr7.png
+        ├── depaul.png
+        ├── dybala.png
+        ├── giroud.png
+        ├── griezmann.png
+        ├── hummels.png
+        ├── joaofelix.png
+        ├── kaka.png
+        ├── kevintrapp.png
+        ├── loftuscheek.png
+        ├── mount.png
+        ├── neymar.png
+        ├── pique.png
+        ├── schar.png
+        ├── sergioramos.png
+        ├── son.png
+        └── wirtz.png
 ```
 
 ---
@@ -145,36 +140,32 @@ Este projeto foi desenvolvido com foco nos seguintes objetivos educacionais:
 
 ## ⚽ Jogadores Disponíveis
 
-A Tier List inclui 25 atacantes de elite do futebol mundial:
+A Tier List inclui 20 jogadores icônicos do futebol mundial:
 
 <div align="center">
 
-| Jogador | Clube/País |
-|---------|------------|
-| Ousmane Dembélé | PSG / França |
-| Jeremy Doku | Manchester City / Bélgica |
-| Estêvão | Palmeiras / Brasil |
-| Antoine Griezmann | Atlético de Madrid / França |
-| Viktor Gyökeres | Sporting CP / Suécia |
-| Erling Haaland | Manchester City / Noruega |
-| Julian Álvarez | Atlético de Madrid / Argentina |
-| Harry Kane | Bayern de Munique / Inglaterra |
-| Khvicha Kvaratskhelia | PSG / Geórgia |
-| Lautaro Martínez | Inter de Milão / Argentina |
-| Gabriel Martinelli | Arsenal / Brasil |
-| Kylian Mbappé | Real Madrid / França |
-| Michael Olise | Bayern de Munique / França |
-| Victor Osimhen | Galatasaray / Nigéria |
-| Cole Palmer | Chelsea / Inglaterra |
-| Pedro Guilherme | Flamengo / Brasil |
-| Rafael Leão | Milan / Portugal |
-| Raphinha | Barcelona / Brasil |
-| Marcus Rashford | Manchester United / Inglaterra |
-| Rodrygo Goes | Real Madrid / Brasil |
-| Bukayo Saka | Arsenal / Inglaterra |
-| Mohamed Salah | Liverpool / Egito |
-| Vinícius Júnior | Real Madrid / Brasil |
-| Lamine Yamal | Barcelona / Espanha |
+| Jogador | Posição/Característica |
+|---------|------------------------|
+| Alisson Becker | Goleiro - Liverpool / Brasil |
+| David Beckham | Meio-campista Lendário - Inglaterra |
+| Jude Bellingham | Meio-campista - Real Madrid / Inglaterra |
+| Cristiano Ronaldo (CR7) | Atacante Lendário - Portugal |
+| Rodrigo De Paul | Meio-campista - Atlético de Madrid / Argentina |
+| Paulo Dybala | Atacante - Roma / Argentina |
+| Olivier Giroud | Atacante - Milan / França |
+| Antoine Griezmann | Atacante - Atlético de Madrid / França |
+| Mats Hummels | Defensor - Roma / Alemanha |
+| João Félix | Atacante - Chelsea / Portugal |
+| Kaká | Meio-campista Lendário - Brasil |
+| Kevin Trapp | Goleiro - Eintracht Frankfurt / Alemanha |
+| Ruben Loftus-Cheek | Meio-campista - Milan / Inglaterra |
+| Mason Mount | Meio-campista - Manchester United / Inglaterra |
+| Neymar Jr | Atacante - Al-Hilal / Brasil |
+| Gerard Piqué | Defensor Lendário - Espanha |
+| Fabian Schär | Defensor - Newcastle / Suíça |
+| Sergio Ramos | Defensor Lendário - Espanha |
+| Son Heung-min | Atacante - Tottenham / Coreia do Sul |
+| Florian Wirtz | Meio-campista - Bayer Leverkusen / Alemanha |
 
 </div>
 
